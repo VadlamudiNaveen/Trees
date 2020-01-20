@@ -11,6 +11,9 @@ def temp(self,root):
           temp1,level=stack.pop(0)
           if len(temp)==level:
                   temp.append(temp1.val)
-          
+          if temp1.left:
+                  stack.append((temp1.left,level+1))
+          if temp1.right:
+                  stack.append((temp1.right,level+1))
                   
     return temp
