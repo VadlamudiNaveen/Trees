@@ -6,8 +6,8 @@ def trav(self,root):
     self.test(root,test)
     l=len(test)
     mat=[[0]*l]*l
-    for i in range(l):
-        for j in range(l):
+    for i in range(0,l):
+        for j in range(0,l):
                if i==j:
                   mat[i][j]=test[i]
     return mat
