@@ -5,11 +5,12 @@ def temp(self,root):
        return
     if root.left is None and root.right is None:          # one node with no left and right 
        return
-    stack=[root]
+    stack=[(root,0)]
     temp=[]
     while stack:
-          temp1=stack.pop(0)
-          if temp1.left:
-                  stack.append(temp1.left)
+          temp1,level=stack.pop(0)
+          if len(temp)==level:
                   temp.append(temp1.val)
+          
+                  
     return temp
