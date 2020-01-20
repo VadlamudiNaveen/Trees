@@ -5,6 +5,11 @@ def trav(self,root):
     test=[]
     if not root:
         return
+    # base cases
+    if root.left is None and root.right is None:
+          test.append(root.val)
+          return test
+    # base cases 
     self.test(root,test)
     l=len(test)
     mat=[[0]*l]*l
