@@ -3,6 +3,8 @@
 
 def trav(self,root):
     test=[]
+    if not root:
+        return
     self.test(root,test)
     l=len(test)
     mat=[[0]*l]*l
