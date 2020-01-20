@@ -1,0 +1,15 @@
+#solution to level wise first element printing
+
+def temp(self,root):
+    if not root:                                          # no node is present base cases
+       return
+    if root.left is None and root.right is None:          # one node with no left and right base cases
+       return
+    stack=[root]
+    temp=[]
+    while stack:
+          temp1=stack.pop(0)
+          if temp1.left:
+                  stack.append(temp1.left)
+                  temp.append(temp1.val)
+    return temp
