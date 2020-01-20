@@ -1,9 +1,9 @@
 #solution to level wise first element printing
 
 def temp(self,root):
-    if not root:                                          # no node is present base cases
+    if not root:                                          # no node is present 
        return
-    if root.left is None and root.right is None:          # one node with no left and right base cases
+    if root.left is None and root.right is None:          # one node with no left and right 
        return
     stack=[root]
     temp=[]
