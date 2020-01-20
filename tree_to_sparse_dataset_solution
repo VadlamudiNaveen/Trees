@@ -14,9 +14,7 @@ def trav(self,root):
     l=len(test)
     mat=[[0]*l]*l
     for i in range(0,l):
-        for j in range(0,l):
-               if i==j:
-                  mat[i][j]=test[i]
+             mat[i][i]=test[i]
     return mat
     
 def test(self,root,test):
