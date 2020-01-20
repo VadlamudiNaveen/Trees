@@ -1,0 +1,20 @@
+# Solution for the Second problem
+# 1: we will traverse the tree and then we will create a dataset...
+
+def trav(self,root):
+    test=[]
+    self.test(root,test)
+    l=len(test)
+    mat=[[0]*l]*l
+    for i in range(l):
+        for j in range(l):
+               if i==j:
+                  mat[i][j]=test[i]
+    return mat
+    
+def test(self,root,test):
+    if root is None:
+           return
+    self.test(root.left,test)
+    test.append(root.val)
+    self.test(root.right,test)
