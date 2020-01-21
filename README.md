@@ -5,7 +5,7 @@ This repository gives the unique questions on trees and gives you the flavour of
 # Question 2
 2: Convert a Tree into Sparse Matrix (Hint: Traversal and Sparse Matrix Logic). <br/>
 </br>
-![](images/sparse.png)
+![](image/sparse.png)
 
 # Question 3
 3: Find the Left Max Value in a tree...(Hint: Tree Traversal and maximum finding) </br> 
