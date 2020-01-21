@@ -5,4 +5,4 @@ This repository gives the unique questions on trees and gives you the flavour of
 # Question 2
 2: Convert a Tree into Sparse Matrix (Hint: Traversal and Sparse Matrix Logic). <br/>
 # Question 3
-3: find the max value of every first element in a level...</br> 
+3: find the max value of every first element of a level...</br> 
