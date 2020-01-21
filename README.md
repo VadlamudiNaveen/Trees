@@ -5,4 +5,4 @@ This repository gives the unique questions on trees and gives you the flavour of
 # Question 2
 2: Convert a Tree into Sparse Matrix (Hint: Traversal and Sparse Matrix Logic). <br/>
 # Question 3
-3: Find the max value of every level in a tree...</br> 
+3: Find the max value of every level in a tree...(Hint: Tree Traversal and maximum finding) </br> 
