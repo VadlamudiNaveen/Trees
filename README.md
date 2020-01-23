@@ -12,4 +12,4 @@ This repository gives the unique questions on trees and gives you the flavour of
 # Question 4
 4: Find whether the binary tree has twins or not(Hint: Pre order Tree Traversal and checking) </br> 
 # Question 5
-5: Find the Present Generation of the family Tree </br> 
+5: Find the Present Generation of the family Tree.</br> 
